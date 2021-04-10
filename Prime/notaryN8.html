@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="notaryN8.css">
+    <title>Notary N8</title>
+</head>
+<body>
+<!--Nav Bar-->
+
+<nav>
+    <div class="logo">
+        <h4> Notary N8</h4>
+     </div>
+     <ul class="nav-links">
+         <li><a href="#">Home</a></li>  
+         <li><a href="#">About</a></li>
+         <li><a href="#">Estimate</a></li>
+         <li><a href="#">Contact Us</a></li>
+     </ul>
+     <div class="burger">
+         <div class="line1"></div>
+         <div class="line2"></div>
+         <div class="line3"></div>
+     </div>
+    </nav>
+
+    <!--Header Showcase-->
+    <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+        <h1>Notary N8: Fast and Reliable Notary Services  Straight to You </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolore natus sapiente quaerat laborum veniam in necessitatibus eveniet vel qui.</p>
+        <a href="client-form" class="btn">Let's Get Started</a>
+        </div>
+    </header>
+
+    <!--About Us Section-->
+    <main id="main">
+        <section id="section-a" class="grid">
+            <div class="content-wrap">
+                <h2 class="content-title">About Us</h2>
+                <div class="content-text">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi perspiciatis rem voluptatibus, facilis eligendi tempora necessitatibus consequuntur. Quam, laboriosam reiciendis!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla explicabo nemo debitis possimus, provident id assumenda atque quas beatae odio commodi consequuntur aliquid, laudantium, blanditiis quo quae quos suscipit.</p>
+
+            </div>
+            </div>
+        </section>
+
+        <!--Section B-->
+        <section id="section-b" class="grid">
+            <ul>
+                <li>
+                    <div class="card">
+                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+                        <div class="card-content ">
+                            <h3 class="card-tittle">Professional Services</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+
+
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+                        <div class="card-content ">
+                            <h3 class="card-tittle">Quick Appointment</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+                            
+
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="card">
+                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+                        <div class="card-content ">
+                            <h3 class="card-tittle">Reliability You Can Trust</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+                            
+
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+        <!--Client Contact Information and Estimat Form-->
+        <section id="client-form" class="grid">
+            <h2>How Can We Help You</h2>
+            <form  id="form" action="notaryN8.html" method="POST"></form>
+            <div class="client">
+            <div id= "error"></div>
+            <fieldset>
+                <legend><span class="number"> 1   </span>Name and Location</legend>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first" name="client_first" required><br>
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last" name="client_middle" required><br>
+                     
+            <label for="middle_initial">Middle Initial</label>
+            <input type="text" id="middle" name="client_last" required><br>
+            
+            <label for="address">Address</label>
+            <input type="text" id="address" name="client_address" required><br>
+            
+            <label for="city">City</label>
+            <input type="text" id="city" name="client_city" required><br>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="client_state" required><br>
+
+            <label for="zip">Zip Code</Code></label>
+            <input type="text" id="zip" name="client_zip" required><br>
+
+            <label for="time">Time of Appointment</label>
+            <input type="datetime-local" id="time" name="client_time" required><br>
+
+            <label for="phone">Contact Number</label>
+            <input type="tel" id="phone" name="client_number" required><br>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="client_email" placeholder="entry@email.com" required><br>
+
+            
+            
+            <label>Contact Preference</label>
+            <input type="radio" id="contact_email" value="contact_email" name="contact_choice"><label for="contact_email" class="light">Email</label>
+            <input type="radio" id="contact_phone" value="contact_phone" name="contact_choice"><label for="contact_phone" class="light">Phone</label>
+            <input type="radio" id="contact_both" value="contact_both" name="contact_choice"><label for="contact_both" class="light">Both</label>
+    
+        </fieldset>
+
+            
+        </fieldset>
+            </div>
+
+            <!--Gathers information of Document-->
+            <div class="documentForm">
+            <fieldset>
+                <legend><span class="number"> 2   </span>About Documment</legend>
+
+
+                <label for="document">Document Type</label>
+                <select id="document" name="doc_type" required><br>
+                    <option value="real_estate">Real Estate</option>
+                    <option value="business">Business</option> 
+                    <option value="personal">Personal<option>
+                </select>
+
+                <label for="page_number">Number of Pages</label>
+                <input type="number" id="pages" name="client_pages"min="1" required><br>
+
+
+                <label for="county">County</label>
+                <select id="county" name="commonwealth" required><br>
+                    <option value="jefferson">Jefferson</option>
+                    <option value="bulliet">Bulliet</option> 
+                    <option value="shelby">Shelby<option>
+                </select><br>
+                
+
+                 <label for="comment">Notes on Document</label>
+                <textarea id="comment" name="document_comment"></textarea>
+            </fieldset>
+            
+         </section>  
+    
+           <!--Initiate calculations for Estimate-->
+           
+            <div class="btn">
+             <button type="submit" id="btn-x" onclick= "getEstimate()">Enter</button>
+            </div>
+             
+        
+        </form>
+        
+    </div>
+        </section>
+        <!--Contact Info about Us-->
+        <section id="section-d" class="grid">
+            <div class="box">
+                <h2 class="content-tittle">Contact Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sequi quod culpa esse, earum vero facere id accusantium possimus repellat?</p>
+                <p>notaryn8@gmail.com</p>
+            </div>
+
+            <div class="box">
+                <h2 class="content-tittle">Check Us Out On Social Media</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit saepe impedit veniam ipsam molestiae vero rem provident, eaque sed nam dicta labore voluptatum ut architecto earum quo autem harum. Tempore.</p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer id="main-footer" class="grid">
+        <div>Nathan Dondell Boyd Endeavors</div>
+        <div>Notary N8</div>
+    </footer>
+
+<script src="notaryN8.js"></script>
+</body>
+
+</html>
