@@ -40,26 +40,26 @@
 
     <!--About Us Section-->
     <main id="main">
-        <section id="section-a" class="grid">
-            <div class="content-wrap">
-                <h2 class="content-title">About Us</h2>
-                <div class="content-text">
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi perspiciatis rem voluptatibus, facilis eligendi tempora necessitatibus consequuntur. Quam, laboriosam reiciendis!</p>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla explicabo nemo debitis possimus, provident id assumenda atque quas beatae odio commodi consequuntur aliquid, laudantium, blanditiis quo quae quos suscipit.</p>
+    <section id="section-a" class="grid">
+    <div class="content-wrap">
+        <h2 class="content-title">About Us</h2>
+    <div class="content-text">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi perspiciatis rem voluptatibus, facilis eligendi tempora necessitatibus consequuntur. Quam, laboriosam reiciendis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nulla explicabo nemo debitis possimus, provident id assumenda atque quas beatae odio commodi consequuntur aliquid, laudantium, blanditiis quo quae quos suscipit.</p>
 
             </div>
             </div>
-        </section>
+    </section>
 
         <!--Section B-->
         <section id="section-b" class="grid">
             <ul>
-                <li>
-                    <div class="card">
-                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
-                        <div class="card-content ">
-                            <h3 class="card-tittle">Professional Services</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+            <li>
+             <div class="card">
+            <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+            <div class="card-content ">
+                <h3 class="card-tittle">Professional Services</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
 
 
                         </div>
@@ -67,11 +67,11 @@
                     </div>
                 </li>
                 <li>
-                    <div class="card">
-                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
-                        <div class="card-content ">
-                            <h3 class="card-tittle">Quick Appointment</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+            <div class="card">
+            <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+            <div class="card-content ">
+             <h3 class="card-tittle">Quick Appointment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
                             
 
                         </div>
@@ -79,11 +79,11 @@
                     </div>
                 </li>
                 <li>
-                    <div class="card">
-                        <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
-                        <div class="card-content ">
-                            <h3 class="card-tittle">Reliability You Can Trust</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+                 <div class="card">
+                <img src="https://www.pexels.com/photo/lawyers-posing-for-a-photo-4427430/" alt="Professionals Posing">
+                 <div class="card-content ">
+                <h3 class="card-tittle">Reliability You Can Trust</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
                             
 
                         </div>
@@ -127,7 +127,7 @@
             <input type="datetime-local" id="time" name="client_time" required><br>
 
             <label for="phone">Contact Number</label>
-            <input type="tel" id="phone" name="client_number" required><br>
+            <input type="tel" id="phone" name="client_number" placeholder="000.000.0000" required><br>
 
             <label for="email">Email Address</label>
             <input type="email" id="email" name="client_email" placeholder="entry@email.com" required><br>
@@ -135,8 +135,8 @@
             
             
             <label>Contact Preference</label>
-            <input type="radio" id="contact_email" value="contact_email" name="contact_choice"><label for="contact_email" class="light">Email</label>
-            <input type="radio" id="contact_phone" value="contact_phone" name="contact_choice"><label for="contact_phone" class="light">Phone</label>
+            <input type="radio" id="contact_email" value="contact_email" name="contact_choice"><label for="contact_email" class="light">Email</label></fieldset></div></section></br>
+            <input type="radio" id="contact_phone" value="contact_phone" name="contact_choice"><label for="contact_phone" class="light">Phone</label></main>
             <input type="radio" id="contact_both" value="contact_both" name="contact_choice"><label for="contact_both" class="light">Both</label>
     
         </fieldset>
@@ -179,7 +179,8 @@
            <!--Initiate calculations for Estimate-->
            
             <div class="btn">
-             <button type="submit" id="btn-x" onclick= "getEstimate()">Enter</button>
+             <button type="submit" id="btn-x" onclick= "getEstimate()"><a href="client-form" class="btn"> ESTIMATE
+             </a></button>
             </div>
              
         
@@ -210,7 +211,9 @@
         <div>Notary N8</div>
     </footer>
 
-<script src="notaryN8.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="notaryN8.js"></script>
 </body>
 
 </html>
