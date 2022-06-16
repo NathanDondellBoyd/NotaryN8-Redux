@@ -14,6 +14,10 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    height: 0em;
+    
+    
+    
 
 }
 
@@ -22,6 +26,7 @@ nav{
  text-transform: uppercase;
  letter-spacing: 5px;
  font-size: 20px;
+ 
  
 }
 
@@ -169,27 +174,29 @@ p {
     padding: 0 1.5em;
 }
 /*About Us Section*/
-#section-a {
+#about {
     background: oldlace;
     color: slateblue;
     padding-bottom: 2em;
+    height: 50vh;
     
 
 }
 
-#section-b{
+#info{
     padding: 2em 1em 1em;
+    height: 100vh;
 
 }
 
-#section-b ul{
+#info ul{
     list-style: none;
     margin: 0;
     padding: 0;
 
 }
 
-#section-b li{
+#info li{
     margin-bottom: 1em;
     background: #fff;
     color: darkblue;
@@ -201,16 +208,19 @@ p {
 /*Client Form Styling*/
 #client-form{
     padding: 2em;
+    height: 100vh;
 }
 
-#section-d .box{
+#client-form .box{
     padding: 2em;
 
 }
 
-#section-d .box:first-child{
-    background: darkblue;
+#contact{
+    height: 100vh;
 }
+
+
 
 #main-footer{
     padding: 2em;
@@ -235,23 +245,23 @@ p {
     padding-top: 0;
 }
 
-.content-wrap, #section-b ul{
+.content-wrap, #info ul{
     grid-column: 2/4;
 }
 
-#section-b ul {
+#info ul {
     display: flex;
     justify-content: space-around;
 
 }
 
-#section-b li {
+#info li {
     width: 33%;
 }
 
-.box, #main-footer div {
-    grid-column: span 2;
-}
+
+
+
 /*Tablet*/
 @media screen and (min-width: 1024px){
     .nav-links{
@@ -271,14 +281,15 @@ p {
         display: flex;
         justify-content: space-around;
         align-items: left;
+    
      }
 
      .nav-links{
         position: relative;
         right: 0px;
-        height: 9vh;
+        height:3vh ;
         top:-2vh;
-        background-color:darkgray;
+        background-color:rgb(179, 177, 177);
         display: flex;
         flex-direction: row;
         align-items: center;

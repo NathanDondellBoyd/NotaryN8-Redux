@@ -118,10 +118,10 @@ function getCounty(){
 
   
 
-/*
+
  document.addEventListener('DOMContentLoaded', ()=> {
  document.getElementById("btn").addEventListener("click",addClient);
  })
 
  
-*/
+
