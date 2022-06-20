@@ -7,6 +7,7 @@ body{
     line-height: 1.5;
     text-align: center;
     overflow-x: hidden;
+
 }
 
 
@@ -131,17 +132,18 @@ p {
 
 .btn{
     display: inline-block;
-    background: black;
+    background: ;
     color: snow;
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid #666;
     margin: .5em 0;
+    border-radius: 50px;
+
 }
 
 .btn:hover{
-    background: steelblue;
-    color: black;
+    background: slategray;
     cursor: pointer;
 }
 
@@ -185,7 +187,7 @@ p {
 
 #info{
     padding: 2em 1em 1em;
-    height: 100vh;
+    height: 50vh;
 
 }
 
@@ -208,17 +210,29 @@ p {
 /*Client Form Styling*/
 #client-form{
     padding: 2em;
-    height: 100vh;
+    height: 90vh;
+    background-color: slateblue;
+    
+    display: block;
+    
 }
 
-#client-form .box{
-    padding: 2em;
 
+#estimate{
+    background-color: slateblue;
+    display: block;
 }
 
+#btn-x{
+    background-color:slateblue;
+    
+}
 #contact{
     height: 100vh;
+    background-color: blueviolet;
+    display: block;
 }
+
 
 
 
@@ -227,6 +241,7 @@ p {
     background: black;
     color: snow;
     text-align: center;
+    display: block
 }
 
 
@@ -236,12 +251,12 @@ p {
      grid-template-columns: 1fr repeat(2, minmax(auto,25em)) 1fr;
     }
 
-#section-a .content-text{
+#about .content-text{
     columns: 2;
     column-gap: 2em;
 }
 
-#section-a .content-text p {
+#about .content-text p {
     padding-top: 0;
 }
 

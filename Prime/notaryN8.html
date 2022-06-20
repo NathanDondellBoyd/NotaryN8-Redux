@@ -40,7 +40,7 @@
     </header>
 
     <!--About Us Section-->
-    <main id="about">
+    <main id="main">
     <section id="about" class="grid">
     <div class="content-wrap">
         <h2 class="content-title">About Us</h2>
@@ -54,100 +54,100 @@
 
         <!--Section B-->
         <section id="info" class="grid">
-            <ul>
-            <li>
-             <div class="card1">
+         <ul>
+        
+        <li>
+        <div class="card1">
             
-            <div class="card-content ">
-                <h3 class="card-tittle">Professional Services</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+        <div class="card-content ">
+        <h3 class="card-tittle">Professional Services</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+       </div>
 
-
-                        </div>
-
-                    </div>
-                </li>
-                <li>
-            <div class="card2">
+        </div>
+        </li>
+               
+        
+        <li>
+        <div class="card2">
             
-            <div class="card-content ">
-             <h3 class="card-tittle">Quick Appointment</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
-                            
+       <div class="card-content ">
+       <h3 class="card-tittle">Quick Appointment</h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+       </div>
 
-                        </div>
-
-                    </div>
-                </li>
-                <li>
-                 <div class="card3">
+       </div>
+       </li>
+    
+       <li>
+       <div class="card3">
                 
-                 <div class="card-content ">
-                <h3 class="card-tittle">Reliability You Can Trust</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
-                            
+        <div class="card-content ">
+        <h3 class="card-tittle">Reliability You Can Trust</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nihil tempore ut natus eveniet nemo obcaecati eius ratione sit reprehenderit.</p>
+        </div>
 
-                        </div>
-
-                    </div>
-                </li>
-            </ul>
+         </div>
+        </li>
+    
+        </ul>
         </section>
 
 
-        <!--Client Contact Information and Estimat Form
+        <!--Client Contact Information and Estimat Form -->
         <section id="client-form" class="grid">
             <h2>How Can We Help You</h2>
             <form  id="form" action="notaryN8.html" method="POST"></form>
+            
             <div class="client">
             <div id= "error"></div>
+            
             <fieldset>
-                <legend><span class="number"> 1   </span>Name and Location</legend>
-            <label for="first_name">First Name</label>
+          
+            <legend><span class="number"> 1   </span>Name and Location</legend>
+            <label for="first_name">First Name</label><br>
             <input type="text" id="first" name="client_first" required><br>
 
-            <label for="last_name">Last Name</label>
+            <label for="last_name">Last Name</label><br>
             <input type="text" id="last" name="client_middle" required><br>
                      
-            <label for="middle_initial">Middle Initial</label>
+            <label for="middle_initial">Middle Initial</label><br>
             <input type="text" id="middle" name="client_last" required><br>
             
-            <label for="address">Address</label>
+            <label for="address">Address</label><br>
             <input type="text" id="address" name="client_address" required><br>
             
-            <label for="city">City</label>
+            <label for="city">City</label><br>
             <input type="text" id="city" name="client_city" required><br>
 
-            <label for="state">State</label>
+            <label for="state">State</label><br>
             <input type="text" id="state" name="client_state" required><br>
 
-            <label for="zip">Zip Code</Code></label>
+            <label for="zip">Zip Code</Code></label><br>
             <input type="text" id="zip" name="client_zip" required><br>
 
-            <label for="time">Time of Appointment</label>
+            <label for="time">Time of Appointment</label><br>
             <input type="datetime-local" id="time" name="client_time" required><br>
 
-            <label for="phone">Contact Number</label>
+            <label for="phone">Contact Number</label><br>
             <input type="tel" id="phone" name="client_number" placeholder="000.000.0000" required><br>
 
-            <label for="email">Email Address</label>
+            <label for="email">Email Address</label><br>
             <input type="email" id="email" name="client_email" placeholder="entry@email.com" required><br>
-
-            
-            
-            <label>Contact Preference</label>
-            <input type="radio" id="contact_email" value="contact_email" name="contact_choice"><label for="contact_email" class="light">Email</label></fieldset></div></section></br>
-            <input type="radio" id="contact_phone" value="contact_phone" name="contact_choice"><label for="contact_phone" class="light">Phone</label></main>
-            <input type="radio" id="contact_both" value="contact_both" name="contact_choice"><label for="contact_both" class="light">Both</label>
-    
         </fieldset>
 
+            <!--Contact Preference -->
+            
             
     
-            </div>
-        -->
+        </section>
+            
+    
+         
+        
 
             <!--Gathers information of Document-->
+            <section id="estimate">
             <div class="documentForm">
             <fieldset>
                 <legend><span class="number"> 2   </span>About Documment</legend>
@@ -172,15 +172,15 @@
                 </select><br>
                 
 
-                 <label for="comment">Notes on Doqcument</label>
+                 <label for="comment">Notes on Document</label>
                 <textarea id="comment" name="document_comment"></textarea>
             </fieldset>
             
-         </section>  
+          
     
            <!--Initiate calculations for Estimate-->
            
-            <div class="btn">
+            <div class="btn-estimate">
              <button type="submit" id="btn-x" onclick= "getEstimate()"><a href="client-form" class="btn"> ESTIMATE
              </a></button>
             </div>
@@ -190,6 +190,8 @@
         
     </div>
         </section>
+       
+       
         <!--Contact Info about Us-->
         <section id="contact" class="grid">
             <div class="box">
@@ -213,8 +215,7 @@
         <div>Notary N8</div>
     </footer>
 
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+   
     <script src="notaryN8.js"></script>
 </body>
 
